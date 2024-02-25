@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <main class="pomodoro">
+        <section class="container">
+            <h1>Pomodoro Timer</h1>
+            <div class="clock">
+                <div class="circle">
+                    <h1 id="display">02:00</h1>
+                </div>
+                <button id="startButton">Start</button>
+                <button id="stopButton">Stop</button>
+            </div>
+        </section>
+        <section class="container">
+            <h1>To do list</h1>
+                <div class="addTask">
+                    <h3>Agregar tarea</h3>
+                    <input type="text" name="" id="addTaskInput">
+                    <button id="addTask">Agregar</button>
+                    <button id="cancelTask">Cancelar</button>
+                    <hr>
+                    <div class="todolist">
+                        <h2>Tareas</h2>
+                        <div id="tasks">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

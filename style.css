@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-size: cover;
+    height: 100vh;
+}
+
+section {
+    height: 95vh;
+}
+label {
+    cursor: pointer;
+    display: inline;
+    margin: 5px 10px;
+    vertical-align: middle;
+}
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px black;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
+
+input[type=text] {
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    align-items: center;
+}
+
+input[type=checkbox]{
+    /*accent-color:  #C70039;  */
+    width: 25px;
+    height: 25px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.pomodoro {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+  
+.container {
+    margin-top: 30px;
+    justify-content: center;
+    width: 50%;
+    margin: 0 1vw;
+    background-color: white;
+    opacity: 0.88;
+    border-radius: 25px;
+}
+
+.clock {
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+#display {
+    font-size: 2.5em;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.addTask {
+    display: block;
+    /*background-color: pink;*/
+    margin: 10px;
+    padding: 10px;
+}
+
+.item {
+    margin: 15px;
+    display: block;
+    text-align: start;
+}
+
+.tasks {
+    text-align: left;
+}
+
+
+ 
+
