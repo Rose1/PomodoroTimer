@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
     <title>Pomodoro Timer</title>
 </head>
 <body>
@@ -23,7 +22,8 @@
             <h1>To do list</h1>
                 <div class="addTask">
                     <h3>Agregar tarea</h3>
-                    <input type="text" name="" id="addTaskInput">
+                    <textarea autofocus placeholder="Enter a task..."
+                    rows="3" cols="30" id="addTaskInput" maxlength='250'></textarea>
                     <button id="addTask">Agregar</button>
                     <button id="cancelTask">Cancelar</button>
                     <hr>
@@ -35,6 +35,14 @@
                 </div>
         </section>
     </main>
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/rap_roses_life/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/rosario-ancco-peralta/" target="_blank">LinkedIn</a>
+        </div>
+        <p>Designed and built by Rose</p>
+        <p>© 2024 Pomodoro Timer Online</p>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
