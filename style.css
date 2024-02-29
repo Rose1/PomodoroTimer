@@ -8,9 +8,6 @@ body {
     height: 100vh;
 }
 
-section {
-    height: 95vh;
-}
 label {
     cursor: pointer;
     display: inline;
@@ -66,17 +63,18 @@ a {
 }
 
 .pomodoro {
-    display: flex;
-    flex-direction: row;
+    display: block;
+    /*flex-direction: row;*/
     margin-left: 3vw;
     margin-right: 3vw;
 }
   
 .container {
-    padding: 15px;
+    display: block;
+    padding: 20px;
     justify-content: center;
-    width: 50%;
-    margin: 0 1vw;
+    height: fit-content;
+    margin: 20px;
     background-color: white;
     opacity: 0.88;
     border-radius: 25px;
@@ -135,7 +133,6 @@ a {
     }
 
     .container {
-        width: 100%;
         height: fit-content;
     }
 
